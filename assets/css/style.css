@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    height: 60px;
+    height: 10%;
     background-color: #ffffff; 
     border-bottom:2px solid #cccccc;
     margin:0;
@@ -69,6 +69,9 @@ li{
     transform: translate(-50%, -30%);
 }
 
+#content-portfolio{
+    height: 650px;
+}
 h2{
     border-bottom:2px solid #cccccc;
     color:#4aaaa5;
@@ -83,13 +86,40 @@ img{
     float: left;
     margin-right: 20px;
 }
+.section-label{
+    background-color: #4aaaa5;
+    width: 200px;
+    height:35px;
+    color:#ffffff;
+    z-index: 1;
+    position: absolute; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 110px;
+}
+.image-portfolio{
+    position: absolute;
+    z-index: 1;
+}
 
-#portfolio{
+.left{
+    left:0;
+}
+.right{
+    left:230px;
+}
+.image-grid{
+    position: relative;
+    width:100%;
+    height:33%;
+}
+#menu-portfolio{
     border-left:2px solid #efefef;
     border-right:2px solid #efefef;
 }
 p{
-    line-height: 1.6;
+    line-height: 2.0;
 }
 input{
     width:100%;
@@ -115,7 +145,7 @@ button{
     color: #ffffff;
 }
 footer{
-    height: 50px;
+    height: 10%;
     background-color: #666666;
     text-align: center;
     padding-top: 30px;
